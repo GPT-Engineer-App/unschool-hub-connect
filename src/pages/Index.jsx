@@ -8,41 +8,41 @@ const Index = () => {
         <h1 className="text-4xl font-bold text-center">Unschool Hub</h1>
       </header>
       <main className="flex flex-col items-center mt-10 space-y-6">
-        <nav className="flex space-x-4">
-          <a href="/learning-paths" className="text-blue-600 hover:text-blue-800 transition-colors duration-300">
-            <FaBook size={40} />
-            <p>Learning Paths</p>
+        <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <a href="/learning-paths" className="bg-white shadow-lg rounded-lg p-6 text-center hover:shadow-xl transition-shadow duration-300">
+            <FaBook size={40} className="mx-auto mb-4 text-blue-600" />
+            <p className="text-lg font-semibold text-blue-600">Learning Paths</p>
           </a>
-          <a href="/community" className="text-blue-600 hover:text-blue-800 transition-colors duration-300">
-            <FaUsers size={40} />
-            <p>Community</p>
+          <a href="/community" className="bg-white shadow-lg rounded-lg p-6 text-center hover:shadow-xl transition-shadow duration-300">
+            <FaUsers size={40} className="mx-auto mb-4 text-blue-600" />
+            <p className="text-lg font-semibold text-blue-600">Community</p>
           </a>
-          <a href="/resources" className="text-blue-600 hover:text-blue-800 transition-colors duration-300">
-            <FaFolderOpen size={40} />
-            <p>Resources</p>
+          <a href="/resources" className="bg-white shadow-lg rounded-lg p-6 text-center hover:shadow-xl transition-shadow duration-300">
+            <FaFolderOpen size={40} className="mx-auto mb-4 text-blue-600" />
+            <p className="text-lg font-semibold text-blue-600">Resources</p>
           </a>
-          <a href="/logs" className="text-blue-600 hover:text-blue-800 transition-colors duration-300">
-            <FaClipboardList size={40} />
-            <p>Logs</p>
+          <a href="/logs" className="bg-white shadow-lg rounded-lg p-6 text-center hover:shadow-xl transition-shadow duration-300">
+            <FaClipboardList size={40} className="mx-auto mb-4 text-blue-600" />
+            <p className="text-lg font-semibold text-blue-600">Logs</p>
           </a>
-          <a href="/events" className="text-blue-600 hover:text-blue-800 transition-colors duration-300">
-            <FaCalendarAlt size={40} />
-            <p>Events</p>
+          <a href="/events" className="bg-white shadow-lg rounded-lg p-6 text-center hover:shadow-xl transition-shadow duration-300">
+            <FaCalendarAlt size={40} className="mx-auto mb-4 text-blue-600" />
+            <p className="text-lg font-semibold text-blue-600">Events</p>
           </a>
-          <a href="/parent-profile" className="text-blue-600 hover:text-blue-800 transition-colors duration-300">
-            <FaUsers size={40} />
-            <p>Parent Profile</p>
+          <a href="/parent-profile" className="bg-white shadow-lg rounded-lg p-6 text-center hover:shadow-xl transition-shadow duration-300">
+            <FaUsers size={40} className="mx-auto mb-4 text-blue-600" />
+            <p className="text-lg font-semibold text-blue-600">Parent Profile</p>
           </a>
-          <a href="/child-profile" className="text-blue-600 hover:text-blue-800 transition-colors duration-300">
-            <FaUsers size={40} />
-            <p>Child Profile</p>
+          <a href="/child-profile" className="bg-white shadow-lg rounded-lg p-6 text-center hover:shadow-xl transition-shadow duration-300">
+            <FaUsers size={40} className="mx-auto mb-4 text-blue-600" />
+            <p className="text-lg font-semibold text-blue-600">Child Profile</p>
           </a>
-          <a href="/mentor-profile" className="text-blue-600 hover:text-blue-800 transition-colors duration-300">
-            <FaUsers size={40} />
-            <p>Mentor Profile</p>
+          <a href="/mentor-profile" className="bg-white shadow-lg rounded-lg p-6 text-center hover:shadow-xl transition-shadow duration-300">
+            <FaUsers size={40} className="mx-auto mb-4 text-blue-600" />
+            <p className="text-lg font-semibold text-blue-600">Mentor Profile</p>
           </a>
-        </nav>
-        <section className="text-center">
+        </section>
+        <section className="text-center mt-10">
           <h2 className="text-3xl font-semibold text-blue-700">Welcome to Unschool Hub</h2>
           <p className="mt-4 text-lg text-gray-700">Your personalized learning journey starts here.</p>
         </section>
