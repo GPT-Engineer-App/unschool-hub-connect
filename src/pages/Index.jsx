@@ -29,6 +29,18 @@ const Index = () => {
             <FaCalendarAlt size={40} />
             <p>Events</p>
           </a>
+          <a href="/parent-profile" className="text-blue-600 hover:text-blue-800 transition-colors duration-300">
+            <FaUsers size={40} />
+            <p>Parent Profile</p>
+          </a>
+          <a href="/child-profile" className="text-blue-600 hover:text-blue-800 transition-colors duration-300">
+            <FaUsers size={40} />
+            <p>Child Profile</p>
+          </a>
+          <a href="/mentor-profile" className="text-blue-600 hover:text-blue-800 transition-colors duration-300">
+            <FaUsers size={40} />
+            <p>Mentor Profile</p>
+          </a>
         </nav>
         <section className="text-center">
           <h2 className="text-3xl font-semibold text-blue-700">Welcome to Unschool Hub</h2>
