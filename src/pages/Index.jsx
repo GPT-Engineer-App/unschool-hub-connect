@@ -41,6 +41,10 @@ const Index = () => {
             <FaUsers size={40} className="mx-auto mb-4 text-blue-600" />
             <p className="text-lg font-semibold text-blue-600">Mentor Profile</p>
           </a>
+          <a href="/daily-log" className="bg-white shadow-lg rounded-lg p-6 text-center hover:shadow-xl transition-shadow duration-300">
+            <FaClipboardList size={40} className="mx-auto mb-4 text-blue-600" />
+            <p className="text-lg font-semibold text-blue-600">Daily Log</p>
+          </a>
         </section>
         <section className="text-center mt-10">
           <h2 className="text-3xl font-semibold text-blue-700">Welcome to Unschool Hub</h2>
